@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Ph.D. Candidate in the Department of Electronic Engineering at **Tsinghua University**, advised by Prof. Yongfeng Huang. 
-Before that, I received my B.E. degree from Tsinghua University in 2021 (GPA 3.89/4.0, Rank 8/261). 
+I am currently a Ph.D. Candidate in the Department of Electronic Engineering at **Tsinghua University**, advised by Prof. Yongfeng Huang, and I also work closely with Prof. Tao Qi from Beijing University of Posts and Telecommunications.
+Before that, I received my B.E. degree from Tsinghua University in 2021. 
 
 My research interests primarily lie in **Large Language Model (LLM) Safety**, **Multi-modal Learning**, and **Retrieval-Augmented Generation (RAG)**. 
-I am particularly interested in data synthesis, enhancement strategies, and building trustworthy AI systems.
+My research also encompasses data synthesis and augmentation techniques for LLM pre-training and SFT.
 
 ## 🔥 News
 * **[2025.12]** We released **LiveSecBench**, a dynamic and event-driven safety benchmark for LLMs. [[Link](https://livesecbench.intokentech.cn/)]
@@ -37,7 +37,7 @@ I am particularly interested in data synthesis, enhancement strategies, and buil
 * Yin, J., **Yang, P. (co-first author)**, Yang, C., Wang, H., Hu, Z., Wang, S., Huang, Y., & Qi, T. (2025). Black-Box Membership Inference Attack for LVLMs via Prior Knowledge-Calibrated Memory Probing. *Conference on Neural Information Processing Systems (NeurIPS 2025)*. [[Link](https://openreview.net/forum?id=4GyTBGBVsB)] 
 
 * **Yang, P.**, Wang, H., Huang, Y., Yang, S., Zhang, Y., Huang, L., Zhang, Y., Wang, G., Yang, S., He, L., & Huang, Y. (2024). LMKG: A Large-Scale and Multi-Source Medical Knowledge Graph for Intelligent Medicine Applications. *Knowledge-Based Systems (KBS)*. [[Link](https://www.sciencedirect.com/science/article/pii/S0950705123010717)]
-* 
+
 
 ## 🎓 Education
 * **Ph.D.** in Electronic Engineering, **Tsinghua University**, Beijing, *Sept. 2021 - Present*. (Award: Future Scholar Scholarship)
