@@ -14,11 +14,6 @@ Before that, I received my B.E. degree from Tsinghua University in 2021.
 My research interests primarily lie in **Large Language Model (LLM) Safety**, **Multi-modal Learning**, and **Retrieval-Augmented Generation (RAG)**. 
 My research also encompasses data synthesis and augmentation techniques for LLM pre-training and SFT.
 
-## 🔥 News
-* **[2025.12]** We released **LiveSecBench**, a dynamic and event-driven safety benchmark for LLMs. [[Link](https://livesecbench.intokentech.cn/)]
-* **[2025.11]** 🎉 Three papers are accepted to **AAAI 2026**, including two **Oral** presentations!
-* **[2025.09]** 🎉 One paper on Black-Box Membership Inference Attack for LVLMs is accepted to **NeurIPS 2025**!
-
 ## 📝 Research Interests
 * **Multi-modal Learning:** Vision-Language Models, Medical Multi-modal RAG.
 * **LLM Safety & Alignment:** Membership Inference Attacks, Data Extraction.
@@ -27,6 +22,10 @@ My research also encompasses data synthesis and augmentation techniques for LLM 
 
 ## 📖 Selected Publications
 *(For a full list, please refer to my [Google Scholar](https://scholar.google.com/citations?hl=en&user=pYWYWyYAAAAJ))*
+
+* **Yang, P.**, Zheng, H., Ju, T., Wang, S., Ni, W., Liu, J., Wang, S., Huang, Y., & Qi, T. (2026). Knowledge Poisoning Attacks on Medical Multi-Modal Retrieval-Augmented Generation. *Annual Meeting of the Association for Computational Linguistics (ACL 2026)*.
+
+* **Yang, P.**, Luo, Y., Gao, Z., Ju, T., Zheng, H., Zhu, L., Fu, H., Li, Q., Wang, S., & Qi, T. (2026). Towards Whole-corpus Reconstruction of Heterogeneous RAG Knowledge Bases. *International Conference on Machine Learning (ICML 2026)*.
 
 * **Yang, P.**, Li, Y., Wang, S., Liu, X., Gan, H., Li, X., Gao, Q., & Huang, Y. (2026). OncoCoT: A Temporal-causal Chain-of-Thought Dataset for Oncologic Decision-Making. *AAAI Conference on Artificial Intelligence (AAAI 2026)* (**Oral**). 
 
