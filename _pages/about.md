@@ -11,27 +11,20 @@ redirect_from:
 I am currently a Ph.D. Candidate in the Department of Electronic Engineering at **Tsinghua University**, advised by Prof. Yongfeng Huang, and I also work closely with Prof. Tao Qi from Beijing University of Posts and Telecommunications.
 Before that, I received my B.E. degree from Tsinghua University in 2021. 
 
-My research interests primarily lie in **Large Language Model (LLM) Safety**, **Multi-modal Learning**, and **Retrieval-Augmented Generation (RAG)**. 
-My research also encompasses data synthesis and augmentation techniques for LLM pre-training and SFT.
-
-## 📝 Research Interests
-* **Multi-modal Learning:** Vision-Language Models, Medical Multi-modal RAG.
-* **LLM Safety & Alignment:** Membership Inference Attacks, Data Extraction.
-* **Retrieval-Augmented Generation (RAG):** Knowledge Base Poisoning, Safe Retrieval.
-* **Data Engineering:** Data Synthesis and Augmentation, Automated Evaluation Pipelines.
+My research interests primarily lie in **LLM pretrain data strategy** and **LLM safety**.
 
 ## 📖 Selected Publications
 *(For a full list, please refer to my [Google Scholar](https://scholar.google.com/citations?hl=en&user=pYWYWyYAAAAJ))*
 
-* **Yang, P.**, Zheng, H., Ju, T., Wang, S., Ni, W., Liu, J., Wang, S., Huang, Y., & Qi, T. (2026). Knowledge Poisoning Attacks on Medical Multi-Modal Retrieval-Augmented Generation. *Annual Meeting of the Association for Computational Linguistics (ACL 2026)*.
-
 * **Yang, P.**, Luo, Y., Gao, Z., Ju, T., Zheng, H., Zhu, L., Fu, H., Li, Q., Wang, S., & Qi, T. (2026). Towards Whole-corpus Reconstruction of Heterogeneous RAG Knowledge Bases. *International Conference on Machine Learning (ICML 2026)*.
 
-* **Yang, P.**, Li, Y., Wang, S., Liu, X., Gan, H., Li, X., Gao, Q., & Huang, Y. (2026). OncoCoT: A Temporal-causal Chain-of-Thought Dataset for Oncologic Decision-Making. *AAAI Conference on Artificial Intelligence (AAAI 2026)* (**Oral**). 
+* **Yang, P.**, Zheng, H., Ju, T., Wang, S., Ni, W., Liu, J., Wang, S., Huang, Y., & Qi, T. (2026). Knowledge Poisoning Attacks on Medical Multi-Modal Retrieval-Augmented Generation. *Annual Meeting of the Association for Computational Linguistics (ACL 2026)*.
 
-* **Yang, P.**, Yin, J., Zheng, H., Bai, X., Wang, H., Sun, Y., Li, X., Pei, S., Huang, Y., & Qi, T. (2026). MrM: Black-Box Membership Inference Attacks against Multimodal RAG Systems. *AAAI Conference on Artificial Intelligence (AAAI 2026)* (**Oral**). [[Link](https://arxiv.org/abs/2506.07399)] 
+* **Yang, P.**, Li, Y., Wang, S., Liu, X., Gan, H., Li, X., Gao, Q., & Huang, Y. (2026). OncoCoT: A Temporal-causal Chain-of-Thought Dataset for Oncologic Decision-Making. *AAAI Conference on Artificial Intelligence (AAAI 2026)* (**Oral**). [[Link](https://ojs.aaai.org/index.php/AAAI/article/view/40724)] 
 
-* **Yang, P.**, Zheng, H., Luo, Y., Liu, X., Wang, J., Wang, H., Li, X., Huang, Y., & Qi, T. (2026). ShieldRAG: Safeguarding Retrieval-Augmented Generation from Untrusted Knowledge Bases. *AAAI Conference on Artificial Intelligence (AAAI 2026)*. 
+* **Yang, P.**, Yin, J., Zheng, H., Bai, X., Wang, H., Sun, Y., Li, X., Pei, S., Huang, Y., & Qi, T. (2026). MrM: Black-Box Membership Inference Attacks against Multimodal RAG Systems. *AAAI Conference on Artificial Intelligence (AAAI 2026)* (**Oral**). [[Link](https://ojs.aaai.org/index.php/AAAI/article/view/40726)] 
+
+* **Yang, P.**, Zheng, H., Luo, Y., Liu, X., Wang, J., Wang, H., Li, X., Huang, Y., & Qi, T. (2026). ShieldRAG: Safeguarding Retrieval-Augmented Generation from Untrusted Knowledge Bases. *AAAI Conference on Artificial Intelligence (AAAI 2026)*. [[Link](https://ojs.aaai.org/index.php/AAAI/article/view/40725)] 
 
 * Yin, J., **Yang, P. (co-first author)**, Yang, C., Wang, H., Hu, Z., Wang, S., Huang, Y., & Qi, T. (2025). Black-Box Membership Inference Attack for LVLMs via Prior Knowledge-Calibrated Memory Probing. *Conference on Neural Information Processing Systems (NeurIPS 2025)*. [[Link](https://openreview.net/forum?id=4GyTBGBVsB)] 
 
@@ -44,5 +37,6 @@ My research also encompasses data synthesis and augmentation techniques for LLM 
 * **Exchange Student**, Computer Science, **Rice University**, Houston, *Aug. 2019 - Jan. 2020*. (GPA: 4.0/4.0)
 
 ## 💻 Work Experience
+* **Research Intern**, **Xiaohongshu Hilab**, *Mar. 2026 - Present*. Dots foundation model pretraining; Focused on pretraining data strategy and scaling law exploration for efficient training.
 * **Research Intern**, **JD Health**, *Nov. 2023 - Aug. 2024*. Focused on Medical Embedding Model Optimization and Heterogeneous RAG Frameworks; Deployed in internal systems.
 * **Research Intern**, **Microsoft Research Asia (MSRA)**, *Dec. 2020 - June 2021*. Social Computing Group; Worked on Personalized News Recommendation and Bing News/Ads optimization.
