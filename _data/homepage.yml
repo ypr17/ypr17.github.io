@@ -7,11 +7,11 @@ en:
     I am currently a research intern on the Scaling Team at <a href="https://www.moonshot.ai/">Moonshot AI</a>. Previously, I worked at <a href="https://hunyuan.tencent.com/">Tencent Hunyuan</a> and <a href="https://studio.dots.ai/?lang=en">Xiaohongshu Dots</a>.
 zh:
   intro: >-
-    我是<a href="https://www.tsinghua.edu.cn/"><strong>清华大学</strong></a>电子工程系的博士研究生，于 2021 年获得清华大学工学学士学位。
+    我在<a href="https://www.tsinghua.edu.cn/"><strong>清华大学</strong></a>电子工程系攻读博士学位，本科也毕业于清华大学（2021 年）。
   research: >-
-    我的主要研究方向是 <strong>LLM pre-training</strong>，具体包括 <strong>scaling law</strong> 和 <strong>data strategy</strong>。我尤其关注 <strong>scaling ladder</strong> 的搭建、<strong>multi-epoch</strong> 数据复用的影响，以及数据配比优化。我的研究成果已发表于 ICML、NeurIPS、ACL、AAAI、EMNLP 等会议。
+    我的研究主要围绕 <strong>LLM pre-training</strong>，尤其关注 <strong>scaling law</strong> 和 <strong>data strategy</strong>。我对搭建 <strong>scaling ladder</strong>、探索 <strong>multi-epoch</strong> 数据复用的影响，以及优化数据配比特别感兴趣。相关成果发表于 ICML、NeurIPS、ACL、AAAI、EMNLP 等会议。
   current: >-
-    我目前在 <a href="https://www.moonshot.ai/">Moonshot AI</a> 的 Scaling Team 实习，此前曾在<a href="https://hunyuan.tencent.com/">腾讯混元</a>和<a href="https://studio.dots.ai/?lang=en">小红书 Dots</a>实习。
+    目前，我在 <a href="https://www.moonshot.ai/">Moonshot AI</a> 的 Scaling Team 实习；此前曾在<a href="https://hunyuan.tencent.com/">腾讯混元</a>和<a href="https://studio.dots.ai/?lang=en">小红书 Dots</a>实习。
 internships:
   - company: Moonshot AI
     url: https://www.moonshot.ai/
