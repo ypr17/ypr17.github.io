@@ -1,0 +1,89 @@
+- title: Smooth Scaling Laws Hide Stepwise Token Learning
+  authors: Pingjie Wang<sup>*</sup>, Zechen Hu<sup>*</sup>, <strong>Peiru Yang<sup>*</sup></strong>, Fu Guo, Debing Zhang
+  venue: NeurIPS 2026
+  distinction: Spotlight
+  image: scaling.png
+  width: 1197
+  height: 474
+  alt: Learning-time estimation, data reweighting, and continued pre-training workflow
+  paper: https://arxiv.org/abs/2606.29858
+  code: https://github.com/applewpj/token-learning-spectrum
+  summary_en: Smooth scaling laws emerge from localized token-level learning events; the learning-time spectrum guides more efficient training.
+  summary_zh: 从 token 级别的阶跃式学习解释平滑的 scaling law，并利用 learning-time spectrum 指导更高效的训练。
+- title: Towards Whole-corpus Reconstruction of Heterogeneous RAG Knowledge Bases
+  authors: <strong>Peiru Yang</strong>, Yi Luo, Zhenfeng Gao, Tong Ju, Haoran Zheng, Linjie Zhu, Hongke Fu, Qing Li, Shangguang Wang, Tao Qi
+  venue: ICML 2026
+  image: geoex.png
+  width: 1467
+  height: 534
+  alt: GeoEX framework for whole-corpus reconstruction of heterogeneous RAG knowledge bases
+  paper: https://openreview.net/forum?id=x61zDYEZ91
+  code: https://github.com/ypr17/GeoEx
+  summary_en: A black-box framework for reconstructing heterogeneous RAG knowledge bases through exploration of the retriever embedding space.
+  summary_zh: 通过探索检索器的 embedding space，在黑盒条件下重建异构 RAG 知识库。
+- title: Knowledge Poisoning Attacks on Medical Multi-Modal Retrieval-Augmented Generation
+  authors: <strong>Peiru Yang<sup>*</sup></strong>, Haoran Zheng<sup>*</sup>, Tong Ju<sup>*</sup>, Shiting Wang, Wanchun Ni, Jiajun Liu, Shangguang Wang, Yongfeng Huang, Tao Qi
+  venue: ACL 2026
+  image: m3att.png
+  width: 1365
+  height: 648
+  alt: M3Att framework with distribution-guided retrieval hijacking and misinformation poisoning
+  paper: https://arxiv.org/abs/2605.10253
+  code: https://github.com/ypr17/M3Att
+  summary_en: A coordinated retrieval and generation poisoning framework for medical multimodal RAG systems.
+  summary_zh: 面向医疗多模态 RAG 系统的检索与生成协同知识投毒框架。
+- title: "OncoCoT: A Temporal-causal Chain-of-Thought Dataset for Oncologic Decision-Making"
+  authors: <strong>Peiru Yang</strong>, Yudong Li, Shiting Wang, Xinyi Liu, Haotian Gan, Xintian Li, Qingyu Gao, Yongfeng Huang
+  venue: AAAI 2026
+  distinction: Oral
+  image: oncocot.png
+  width: 1518
+  height: 780
+  alt: OncoCoT pipeline for temporal-causal clinical reasoning data construction
+  paper: https://ojs.aaai.org/index.php/AAAI/article/view/40724
+  summary_en: A temporal-causal chain-of-thought dataset for reasoning over longitudinal oncology cases.
+  summary_zh: 基于真实肿瘤病例的时序因果关系，构建面向临床决策的 chain-of-thought 数据集。
+- title: "MrM: Black-Box Membership Inference Attacks against Multimodal RAG Systems"
+  authors: <strong>Peiru Yang</strong>, Jinhua Yin, Haoran Zheng, Xueying Bai, Huili Wang, Yufei Sun, Xintian Li, Songwei Pei, Yongfeng Huang, Tao Qi
+  venue: AAAI 2026
+  distinction: Oral
+  image: mrm.png
+  width: 1194
+  height: 633
+  alt: MrM object-aware perturbation, counterfact-informed mask selection, and statistical membership inference
+  paper: https://ojs.aaai.org/index.php/AAAI/article/view/40726
+  code: https://github.com/ypr17/MrM-RAG-MIA
+  summary_en: Black-box membership inference through object-aware perturbation and counterfact-informed mask selection.
+  summary_zh: 结合 object-aware 数据扰动与反事实引导的掩码选择，进行黑盒多模态 RAG 成员推断。
+- title: "ShieldRAG: Safeguarding Retrieval-Augmented Generation from Untrusted Knowledge Bases"
+  authors: <strong>Peiru Yang<sup>*</sup></strong>, Haoran Zheng<sup>*</sup>, Yi Luo, Xinyi Liu, Jinrui Wang, Huili Wang, Xintian Li, Yongfeng Huang, Tao Qi
+  venue: AAAI 2026
+  image: shieldrag.png
+  width: 1518
+  height: 798
+  alt: ShieldRAG framework for safe retrieval from untrusted knowledge bases
+  paper: https://ojs.aaai.org/index.php/AAAI/article/view/40725
+  code: https://github.com/ypr17/ShieldRAG
+  summary_en: Safeguarding RAG systems against harmful content in untrusted knowledge bases.
+  summary_zh: 提升 RAG 系统在不可信知识库下的安全性，抵御有害知识带来的风险。
+- title: Black-Box Membership Inference Attack for LVLMs via Prior Knowledge-Calibrated Memory Probing
+  authors: Jinhua Yin<sup>*</sup>, <strong>Peiru Yang<sup>*</sup></strong>, Chen Yang, Huili Wang, Zhiyang Hu, Shangguang Wang, Yongfeng Huang, Tao Qi
+  venue: NeurIPS 2025
+  image: prior.png
+  width: 1197
+  height: 546
+  alt: Knowledge-Calibrated Memory Probing with semantic masks, prior calibration, and model confidence evaluation
+  paper: https://openreview.net/forum?id=4GyTBGBVsB
+  summary_en: Prior knowledge calibration helps distinguish memorization from general knowledge in black-box LVLMs.
+  summary_zh: 利用先验知识校准的 memory probing，区分黑盒 LVLM 的训练记忆与通用知识。
+- title: "LMKG: A Large-Scale and Multi-Source Medical Knowledge Graph for Intelligent Medicine Applications"
+  authors: <strong>Peiru Yang</strong>, Hongjun Wang, Yingzhuo Huang, Shuai Yang, Ya Zhang, Liang Huang, Yuesong Zhang, Guoxin Wang, Shizhong Yang, Liang He, Yongfeng Huang
+  venue: Knowledge-Based Systems 2024
+  image: lmkg.png
+  width: 678
+  height: 299
+  alt: LMKG construction framework integrating multiple medical knowledge sources
+  paper: https://www.sciencedirect.com/science/article/pii/S0950705123010717
+  code: https://github.com/ypr17/LMKG
+  summary_en: A large-scale, multi-source medical knowledge graph for intelligent medicine applications.
+  summary_zh: 融合多来源医学知识，构建面向智能医疗应用的大规模 medical knowledge graph。

@@ -1,0 +1,77 @@
+en:
+  intro: >-
+    I am a Ph.D. candidate in the Department of Electronic Engineering at <a href="https://www.tsinghua.edu.cn/en/"><strong>Tsinghua University</strong></a>. I received my B.E. degree from Tsinghua University in 2021.
+  research: >-
+    My research focuses on <strong>LLM pre-training</strong>, specifically <strong>scaling law</strong>, <strong>scaling ladder</strong>, and <strong>data strategy</strong>. I am particularly interested in building <strong>scaling ladders</strong>, understanding the effects of <strong>multi-epoch</strong> data reuse, and optimizing data mixture ratios with <strong>automix</strong>. My work has been published at conferences including ICML, NeurIPS, ACL, AAAI, and EMNLP.
+  current: >-
+    I am currently a research intern on the Scaling Team at <a href="https://www.moonshot.ai/">Moonshot AI</a>. Previously, I worked at <a href="https://hunyuan.tencent.com/">Tencent Hunyuan</a> and <a href="https://studio.dots.ai/?lang=en">Xiaohongshu Dots</a>.
+zh:
+  intro: >-
+    我是<a href="https://www.tsinghua.edu.cn/"><strong>清华大学</strong></a>电子工程系的博士研究生，于 2021 年获得清华大学工学学士学位。
+  research: >-
+    我的主要研究方向是 <strong>LLM pre-training</strong>，具体包括 <strong>scaling law</strong>、<strong>scaling ladder</strong> 和 <strong>data strategy</strong>。我尤其关注 <strong>scaling ladder</strong> 的搭建、<strong>multi-epoch</strong> 数据复用的影响，以及基于 <strong>automix</strong> 的数据配比优化。我的研究成果已发表于 ICML、NeurIPS、ACL、AAAI、EMNLP 等会议。
+  current: >-
+    我目前在 <a href="https://www.moonshot.ai/">Moonshot AI</a> 的 Scaling Team 实习，此前曾在<a href="https://hunyuan.tencent.com/">腾讯混元</a>和<a href="https://studio.dots.ai/?lang=en">小红书 Dots</a>实习。
+internships:
+  - company: Moonshot AI
+    url: https://www.moonshot.ai/
+    team: Scaling Team
+    dates_short: 2026.09–Now
+    dates_en: Sept. 2026 – Present
+    dates_zh: 2026 年 9 月至今
+  - company: Tencent
+    company_zh: 腾讯
+    url: https://hunyuan.tencent.com/
+    team: Hunyuan
+    team_zh: 混元
+    dates_short: 2026.07–09
+    dates_en: July 2026 – Sept. 2026
+    dates_zh: 2026 年 7 月–9 月
+  - company: Xiaohongshu
+    company_zh: 小红书
+    url: https://studio.dots.ai/?lang=en
+    team: Dots
+    dates_short: 2026.03–06
+    dates_en: Mar. 2026 – June 2026
+    dates_zh: 2026 年 3 月–6 月
+  - company: JD.com, Inc. · JD Health
+    company_zh: 京东集团 · 京东健康
+    url: https://www.jdhealth.com/
+    dates_short: 2023.11–2024.08
+    dates_en: Nov. 2023 – Aug. 2024
+    dates_zh: 2023 年 11 月–2024 年 8 月
+  - company: Microsoft Research Asia
+    company_short: MSRA
+    company_short_zh: 微软 MSRA
+    company_zh: 微软亚洲研究院
+    url: https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/
+    team: Social Computing Group
+    team_short: Social Computing
+    dates_short: 2020.12–2021.06
+    dates_en: Dec. 2020 – June 2021
+    dates_zh: 2020 年 12 月–2021 年 6 月
+education:
+  - school_en: Tsinghua University
+    school_zh: 清华大学
+    degree_en: Ph.D. in Electronic Engineering
+    degree_zh: 电子工程，博士在读
+    dates_en: Sept. 2021 – Present
+    dates_zh: 2021 年 9 月至今
+    detail_en: "Award: Future Scholar Scholarship"
+    detail_zh: "荣誉：未来学者奖学金"
+  - school_en: Tsinghua University
+    school_zh: 清华大学
+    degree_en: B.E. in Electronic Engineering
+    degree_zh: 电子工程，工学学士
+    dates_en: Sept. 2017 – June 2021
+    dates_zh: 2017 年 9 月–2021 年 6 月
+    detail_en: "GPA: 3.89/4.0 · Rank: 8/261 · Excellent Undergraduate Thesis"
+    detail_zh: "GPA：3.89/4.0 · 排名：8/261 · 优秀本科毕业论文"
+  - school_en: Rice University
+    school_zh: 莱斯大学
+    degree_en: Exchange Student in Computer Science
+    degree_zh: 计算机科学，交换生
+    dates_en: Aug. 2019 – Jan. 2020
+    dates_zh: 2019 年 8 月–2020 年 1 月
+    detail_en: "GPA: 4.0/4.0"
+    detail_zh: "GPA：4.0/4.0"

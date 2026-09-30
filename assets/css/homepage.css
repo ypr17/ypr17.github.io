@@ -1,0 +1,106 @@
+/* Adapted from applewpj/applewpj.github.io (MIT; see LICENSE).
+   Reference typography: Trebuchet MS, 15px, 1.5 line-height, white background.
+   Reference grid: 925px / 1280px, 2-column profile + 10-column content. */
+* { box-sizing: border-box; }
+html { font-size: 15px; background: #fff; -webkit-text-size-adjust: 100%; scroll-padding-top: 5rem; }
+body { margin: 0; color: #494e52; font-family: "Trebuchet MS", Helvetica, sans-serif; line-height: 1.5; background: #fff; }
+a { color: #224b8d; }
+a:hover { color: #1a386a; }
+a:focus-visible, button:focus-visible { outline: 2px solid #224b8d; outline-offset: 4px; }
+p { margin: 0 0 .5em; }
+img { max-width: 100%; height: auto; }
+button { font: inherit; }
+sup { font-size: .75em; line-height: 0; }
+[hidden], [data-language="en"] [data-lang="zh"], [data-language="zh"] [data-lang="en"] { display: none !important; }
+.skip-link { position: absolute; left: 1rem; top: -100px; z-index: 30; padding: .5rem 1rem; background: white; }
+.skip-link:focus { top: .5rem; }
+.masthead { position: sticky; top: 0; z-index: 20; background: #fff; border-bottom: 1px solid #f2f3f3; }
+.masthead__inner-wrap { max-width: 925px; margin: auto; padding: .5em; display: flex; align-items: center; gap: 2rem; }
+.masthead a { display: block; padding: .5rem 0; color: #7a8288; text-decoration: none; white-space: nowrap; }
+.masthead a:hover { color: #494e52; }
+.nav-home { font-weight: 700; margin-right: 2rem; }
+.language-toggle { margin-left: auto; padding: .3rem .75rem; border: 1px solid #d9dcdf; border-radius: 4px; color: #224b8d; background: #fff; cursor: pointer; white-space: nowrap; }
+.language-toggle:hover { background: #f2f3f3; }
+#main { max-width: 925px; margin: 1em auto 0; padding: 0 1em; display: flow-root; }
+.sidebar { margin-bottom: 1em; }
+.profile-box { display: flex; align-items: center; gap: 1rem; }
+.author__avatar { flex: 0 0 75px; display: block; }
+.author__avatar img { display: block; width: 100%; max-width: 175px; border-radius: 50%; }
+.author__name { font-size: 1.2em; line-height: 1.2; margin: 0 0 .5em; }
+.author__name-cn { display: block; margin-top: .25em; }
+.author__bio, .author__affiliation { margin: 0 0 .75em; }
+.author__urls { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .3em 1em; }
+.author__urls a { color: inherit; text-decoration: none; }
+.author__urls a:hover { text-decoration: underline; }
+.page { min-width: 0; }
+.introduction p { margin-bottom: .5em; }
+section { scroll-margin-top: 1rem; }
+.page h2 { margin: 1em 0 .5em; padding-bottom: .5em; border-bottom: 1px solid #f2f3f3; font-size: 1.4em; line-height: 1.2; }
+.experience-list { padding-left: 1.25em; margin: .5em 0 1em; }
+.experience-list li { margin-bottom: .7em; padding-left: .1em; }
+.company-short, .dates-short { display: none; }
+#internships .experience-heading { flex-wrap: nowrap; }
+#internships .experience-heading strong { white-space: nowrap; }
+.experience-heading { display: flex; justify-content: space-between; align-items: baseline; column-gap: 1.5rem; flex-wrap: wrap; }
+.experience-heading a { text-decoration: none; }
+.experience-heading a:hover { text-decoration: underline; }
+.dates { font-style: italic; white-space: nowrap; }
+.education-list p { margin: 0; }
+.publication-note { margin-bottom: 0; }
+.paper-box { display: flex; align-items: center; flex-wrap: wrap; padding: 2em 0; border-bottom: 1px solid #efefef; }
+.paper-box-image { width: 100%; position: relative; order: 2; margin-top: 1em; padding-top: 1.5rem; }
+.paper-box-image > a { display: block; max-width: 400px; margin: auto; }
+.paper-box-image img { display: block; width: 100%; height: auto; box-shadow: 3px 3px 6px #888; object-fit: contain; }
+.paper-box-image a:hover img { box-shadow: 0 0 10px #0004; }
+.badge { position: absolute; top: 0; left: -.5em; padding: 0 1rem; color: white; background: #00369f; font-size: .8em; z-index: 1; pointer-events: none; }
+.paper-box-text { width: 100%; order: 1; overflow-wrap: anywhere; }
+.paper-box-text h3 { margin: 0 0 .5em; font-size: 1em; line-height: 1.5; }
+.paper-box-text p { margin-bottom: .5em; }
+.paper-box-text p:last-child { margin-bottom: 0; }
+.distinction { color: #8b0000; font-weight: 400; }
+.paper-links a + a { margin-left: .25em; }
+.page { padding-bottom: 2em; }
+@media (min-width: 48em) {
+  .author__name { font-size: 1.4em; }
+  .paper-box-image { width: 40%; min-width: 200px; order: 1; margin-top: 0; }
+  .paper-box-image > a { margin: 0; }
+  .paper-box-text { width: 60%; padding-left: 2em; order: 2; }
+}
+@media (min-width: 57.8125em) {
+  .sidebar { width: 15.25424%; float: left; margin-right: 1.69492%; position: sticky; top: 5rem; }
+  .profile-box { display: block; }
+  .author__avatar img { padding: 5px; border: 1px solid #f2f3f3; }
+  .author__name { margin: 10px 0; }
+  .author__bio { margin: 10px 0 20px; }
+  .author__urls { display: block; }
+  .author__urls li { margin-bottom: 5px; }
+  .author__urls a { display: inline-block; padding: 2px 0; }
+  .page { width: 83.05085%; float: right; padding-left: 4.23729%; }
+}
+@media (min-width: 80em) {
+  #main, .masthead__inner-wrap { max-width: 1280px; }
+}
+@media (max-width: 47.999em) {
+  .masthead__inner-wrap { gap: 1rem; padding: .5em 1em; flex-wrap: wrap; }
+  .nav-home { display: none !important; }
+  .masthead a, .language-toggle { font-size: .9em; }
+  .language-toggle { padding: .25rem .5rem; }
+  .sidebar { padding: .5em 0; }
+  .author__bio, .author__affiliation { display: none; }
+  .author__name-cn { display: inline; margin-left: .3em; }
+  .experience-heading { display: block; }
+  .dates { display: block; }
+  #internships .experience-heading { display: flex; gap: .5rem; }
+  #internships .company-full, #internships .dates-full { display: none; }
+  #internships .company-short, #internships .dates-short { display: inline; }
+  #internships .experience-list { font-size: .82em; padding-left: 1em; }
+  #internships .dates { font-size: .9em; }
+  .paper-box-image { max-width: 400px; margin: 1.25em auto 0; }
+  .badge { max-width: calc(100% + .5em); }
+}
+@media print {
+  .masthead, .skip-link { display: none; }
+  .sidebar { position: static; }
+  .paper-box, .experience-list li { break-inside: avoid; }
+  .paper-box-image img { box-shadow: none; }
+}

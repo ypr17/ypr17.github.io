@@ -1,0 +1,60 @@
+<section id="about-me" class="introduction" aria-label="About me">
+  {% for language in site.data.homepage %}{% if language[0] == 'en' or language[0] == 'zh' %}
+  {% assign lang = language[0] %}{% assign text = language[1] %}
+  <div data-lang="{{ lang }}" lang="{% if lang == 'zh' %}zh-CN{% else %}en{% endif %}">
+    <p>{{ text.intro }}</p>
+    <p>{{ text.research }}</p>
+    <p>{{ text.current }}</p>
+  </div>
+  {% endif %}{% endfor %}
+</section>
+
+<section id="internships">
+  <h2>💻 <span data-lang="en">Internships</span><span data-lang="zh" lang="zh-CN">实习经历</span></h2>
+  <ul class="experience-list">
+    {% for entry in site.data.homepage.internships %}
+    <li>
+      <div class="experience-heading"><strong><span data-lang="en">{% if entry.company_short %}<span class="company-full">{{ entry.company }}</span><span class="company-short">{{ entry.company_short }}</span>{% else %}{{ entry.company }}{% endif %}</span><span data-lang="zh" lang="zh-CN">{% if entry.company_short_zh %}<span class="company-full">{{ entry.company_zh }}</span><span class="company-short">{{ entry.company_short_zh }}</span>{% else %}{{ entry.company_zh | default: entry.company }}{% endif %}</span>{% if entry.team %} · {% if entry.team_short %}<span class="company-full">{{ entry.team }}</span><span class="company-short">{{ entry.team_short }}</span>{% elsif entry.team_zh %}<span data-lang="en">{{ entry.team }}</span><span data-lang="zh" lang="zh-CN">{{ entry.team_zh }}</span>{% else %}{{ entry.team }}{% endif %}{% endif %}</strong>
+        <span class="dates"><span class="dates-full"><span data-lang="en">{{ entry.dates_en }}</span><span data-lang="zh" lang="zh-CN">{{ entry.dates_zh }}</span></span><span class="dates-short">{{ entry.dates_short | replace: "Now", "" }}{% if forloop.first %}<span data-lang="en">Now</span><span data-lang="zh" lang="zh-CN">至今</span>{% endif %}</span></span>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section id="publications">
+  <h2>📝 <span data-lang="en">Selected Publications</span><span data-lang="zh" lang="zh-CN">代表论文</span></h2>
+  <p class="publication-note"><span data-lang="en">For a full list, please see my</span><span data-lang="zh" lang="zh-CN">完整论文列表请见</span> <a href="{{ site.author.googlescholar }}">Google Scholar</a>.<br><sup>*</sup> <span data-lang="en">Equal contribution.</span><span data-lang="zh" lang="zh-CN">表示共同第一作者。</span></p>
+  {% for paper in site.data.selected_publications %}
+  <article class="paper-box">
+    <div class="paper-box-image">
+      <span class="badge">{{ paper.venue }}{% if paper.distinction %} {{ paper.distinction }}{% endif %}</span>
+      <a href="{{ site.baseurl }}/images/publications/{{ paper.image }}" aria-label="View method figure: {{ paper.title | escape }}">
+        <img src="{{ site.baseurl }}/images/publications/{{ paper.image }}" alt="{{ paper.alt | escape }}" width="{{ paper.width }}" height="{{ paper.height }}" loading="lazy" decoding="async">
+      </a>
+    </div>
+    <div class="paper-box-text">
+      <h3>{{ paper.title }}</h3>
+      <p class="paper-authors">{{ paper.authors }}</p>
+      <p class="paper-venue"><em>{{ paper.venue }}{% if paper.distinction %} <strong class="distinction">{{ paper.distinction }}</strong>{% endif %}</em></p>
+      <p class="paper-links"><a href="{{ paper.paper }}">[<span data-lang="en">Paper</span><span data-lang="zh" lang="zh-CN">论文</span>]</a>{% if paper.code %} <a href="{{ paper.code }}">[<span data-lang="en">Code</span><span data-lang="zh" lang="zh-CN">代码</span>]</a>{% endif %}</p>
+      <p><span data-lang="en">{{ paper.summary_en }}</span><span data-lang="zh" lang="zh-CN">{{ paper.summary_zh }}</span></p>
+    </div>
+  </article>
+  {% endfor %}
+</section>
+
+<section id="education">
+  <h2>🎓 <span data-lang="en">Education</span><span data-lang="zh" lang="zh-CN">教育经历</span></h2>
+  <ul class="experience-list education-list">
+    {% for entry in site.data.homepage.education %}
+    <li>
+      <div class="experience-heading"><strong><span data-lang="en">{{ entry.school_en }}</span><span data-lang="zh" lang="zh-CN">{{ entry.school_zh }}</span></strong>
+        <span class="dates"><span data-lang="en">{{ entry.dates_en }}</span><span data-lang="zh" lang="zh-CN">{{ entry.dates_zh }}</span></span>
+      </div>
+      <p><span data-lang="en">{{ entry.degree_en }}</span><span data-lang="zh" lang="zh-CN">{{ entry.degree_zh }}</span></p>
+      <p><span data-lang="en">{{ entry.detail_en }}</span><span data-lang="zh" lang="zh-CN">{{ entry.detail_zh }}</span></p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

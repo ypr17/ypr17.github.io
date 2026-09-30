@@ -1,0 +1,35 @@
+# Provenance of the method figures used on the homepage.
+# Assets are cropped from the authors' papers; no synthetic diagrams are used.
+scaling.png:
+  source: https://arxiv.org/abs/2606.29858v2
+  figure: 6
+  page: 9
+geoex.png:
+  source: ICML_GeoEx.pdf (author-provided manuscript)
+  publication: https://icml.cc/virtual/2026/poster/60734
+  figure: 2
+  page: 4
+m3att.png:
+  source: https://arxiv.org/abs/2605.10253
+  figure: 1
+  page: 3
+oncocot.png:
+  source: https://ojs.aaai.org/index.php/AAAI/article/download/40724/44685
+  figure: 2
+  page: 3
+mrm.png:
+  source: https://arxiv.org/abs/2506.07399
+  figure: 1
+  page: 3
+shieldrag.png:
+  source: https://ojs.aaai.org/index.php/AAAI/article/download/40725/44686
+  figure: 2
+  page: 3
+prior.png:
+  source: https://arxiv.org/abs/2511.01952
+  figure: 1
+  page: 5
+lmkg.png:
+  source: https://ars.els-cdn.com/content/image/1-s2.0-S0950705123010717-gr2.jpg
+  publication: https://doi.org/10.1016/j.knosys.2023.111323
+  figure: 2

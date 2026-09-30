@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" data-language="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ page.excerpt | escape }}">
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ page.excerpt | escape }}">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/">
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images/profile.jpg">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="{{ site.baseurl }}/images/favicon.ico?v=portrait">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png?v=portrait">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/images/apple-touch-icon-180x180.png?v=portrait">
+    <link rel="manifest" href="{{ site.baseurl }}/images/manifest.json">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/homepage.css">
+    <script src="{{ site.baseurl }}/assets/js/homepage-language.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main"><span data-lang="en">Skip to content</span><span data-lang="zh" lang="zh-CN">跳转到正文</span></a>
+    <header class="masthead">
+      <nav class="masthead__inner-wrap" aria-label="Main navigation">
+        <a class="nav-home" href="#about-me"><span data-lang="en">Homepage</span><span data-lang="zh" lang="zh-CN">主页</span></a>
+        <a href="#internships"><span data-lang="en">Internships</span><span data-lang="zh" lang="zh-CN">实习经历</span></a>
+        <a href="#publications"><span data-lang="en">Publications</span><span data-lang="zh" lang="zh-CN">代表论文</span></a>
+        <a href="#education"><span data-lang="en">Education</span><span data-lang="zh" lang="zh-CN">教育经历</span></a>
+        <button id="language-toggle" class="language-toggle" type="button" aria-label="切换到中文" hidden>中文</button>
+      </nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <aside class="sidebar" aria-label="Profile">
+        <div class="profile-box">
+          <a class="author__avatar" href="{{ site.baseurl }}/images/profile.jpg" aria-label="View portrait of Peiru Yang">
+            <img src="{{ site.baseurl }}/images/profile.jpg" width="175" height="175" alt="Peiru Yang / 杨珮茹">
+          </a>
+          <div class="author__content">
+            <h1 class="author__name">Peiru Yang <span class="author__name-cn" lang="zh-CN">杨珮茹</span></h1>
+            <p class="author__bio"><span data-lang="en">Ph.D. Candidate<br>Electronic Engineering</span><span data-lang="zh" lang="zh-CN">电子工程系<br>博士研究生</span></p>
+            <p class="author__affiliation"><span data-lang="en">Tsinghua University<br>Beijing, China</span><span data-lang="zh" lang="zh-CN">清华大学<br>中国，北京</span></p>
+            <ul class="author__urls">
+              <li><a href="mailto:{{ site.author.email }}"><span aria-hidden="true">✉</span> <span data-lang="en">Email</span><span data-lang="zh" lang="zh-CN">邮箱</span></a></li>
+              <li><a href="{{ site.author.googlescholar }}">Google Scholar</a></li>
+              <li><a href="https://github.com/{{ site.author.github }}">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+      <article class="page">
+        {{ content }}
+      </article>
+    </main>
+  </body>
+</html>
