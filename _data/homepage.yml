@@ -34,22 +34,6 @@ internships:
     dates_short: 2026.03–06
     dates_en: Mar. 2026 – June 2026
     dates_zh: 2026 年 3 月–6 月
-  - company: JD.com, Inc. · JD Health
-    company_zh: 京东集团 · 京东健康
-    url: https://www.jdhealth.com/
-    dates_short: 2023.11–2024.08
-    dates_en: Nov. 2023 – Aug. 2024
-    dates_zh: 2023 年 11 月–2024 年 8 月
-  - company: Microsoft Research Asia
-    company_short: MSRA
-    company_short_zh: 微软 MSRA
-    company_zh: 微软亚洲研究院
-    url: https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/
-    team: Social Computing Group
-    team_short: Social Computing
-    dates_short: 2020.12–2021.06
-    dates_en: Dec. 2020 – June 2021
-    dates_zh: 2020 年 12 月–2021 年 6 月
 education:
   - school_en: Tsinghua University
     school_zh: 清华大学
